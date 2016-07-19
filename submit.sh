@@ -1,0 +1,10 @@
+bsub -q 1nh -J 50to200    run.sh list/list_ZToMuMu_M_50_120.txt    160712/res_ZToMuMu_M_50_120.root
+bsub -q 1nh -J 120to200   run.sh list/list_ZToMuMu_M_120_200.txt   160712/res_ZToMuMu_M_120_200.root
+bsub -q 1nh -J 200to400   run.sh list/list_ZToMuMu_M_200_400.txt   160712/res_ZToMuMu_M_200_400.root
+bsub -q 1nh -J 400to800   run.sh list/list_ZToMuMu_M_400_800.txt   160712/res_ZToMuMu_M_400_800.root
+bsub -q 1nh -J 800to1400  run.sh list/list_ZToMuMu_M_800_1400.txt  160712/res_ZToMuMu_M_800_1400.root
+bsub -q 1nh -J 1400to2300 run.sh list/list_ZToMuMu_M_1400_2300.txt 160712/res_ZToMuMu_M_1400_2300.root
+bsub -q 1nh -J 2300to3500 run.sh list/list_ZToMuMu_M_2300_3500.txt 160712/res_ZToMuMu_M_2300_3500.root
+bsub -q 1nh -J 3500to4500 run.sh list/list_ZToMuMu_M_3500_4500.txt 160712/res_ZToMuMu_M_3500_4500.root
+bsub -q 1nh -J 4500to5000 run.sh list/list_ZToMuMu_M_4500_6000.txt 160712/res_ZToMuMu_M_4500_6000.root
+#bsub -q 1nh -J Zprime5000 run.sh list/list_ZprimeToMuMu_M_5000.txt 160413/barrelOnly//res_ZprimeToMuMu_M_5000.root
